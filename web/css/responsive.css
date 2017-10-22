@@ -1,0 +1,162 @@
+
+/*Wide Screens menor lg*/
+@media only screen and (min-width: 1201px){
+    .tamano{
+        font-size: 25px !important;
+    }
+    .tamano2{
+        font-size: 33px !important;
+    }
+    .tamano3{
+        font-size: 40px !important;
+    }
+    .tamano4{
+        font-size: 20px !important;
+    }
+    .tamano5{
+        font-size: 53px !important;
+    }
+    .tamano6{
+        font-size: 22px !important;
+    }
+    .tamano7{
+        font-size: 33px !important;
+    }
+    .tamano8{
+        font-size: 20px !important;
+    }
+    .tamano9{
+        font-size: 23px !important;
+    }
+    
+    .masthead-nav > li + li {
+        margin-left: 100px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 100px;
+    }
+}
+
+/* Wide Screens menor md*/
+@media only screen and (max-width : 1200px) {
+    .tamano{
+        font-size: 20px !important;
+    }
+    .tamano2{
+        font-size: 28px !important;
+    }
+    .tamano3{
+        font-size: 35px !important;
+    }
+    .tamano4{
+        font-size: 15px !important;
+    }
+    .tamano5{
+        font-size: 48px !important;
+    }
+    .tamano6{
+        font-size: 17px !important;
+    }
+    .tamano7{
+        font-size: 28px !important;
+    }
+    .tamano8{
+        font-size: 15px !important;
+    }
+    .tamano9{
+        font-size: 18px !important;
+    }
+
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+}
+
+/*Desktops menor sm*/
+@media only screen and (max-width : 992px) {
+    .tamano{
+        font-size: 15px !important;
+    }
+    .tamano2{
+        font-size: 23px !important;
+    }
+    .tamano3{
+        font-size: 30px !important;
+    }
+    .tamano4{
+        font-size: 10px !important;
+    }
+    .tamano5{
+        font-size: 43px !important;
+    }
+    .tamano6{
+        font-size: 12px !important;
+    }
+    .tamano7{
+        font-size: 25px !important;
+    }
+    .tamano8{
+        font-size: 10px !important;
+    }
+    .tamano9{
+        font-size: 13px !important;
+    }
+
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+}
+
+/*Tablets menor xs */
+@media only screen and (max-width : 768px) {
+    .foco{
+        height: 150%;
+        max-width: 200%;
+        position: absolute;
+        top: -10%;
+        bottom: 0;
+        left: -35%;
+        right: 0;
+    }
+    .fc{
+        display: none;
+    }
+} 
+
+/* Tablets menor xs */ 
+@media only screen and (max-width : 480px) {
+    .foco{
+        height: 0;
+        max-width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .fc{
+        display: none;
+    }
+}
+
+/* Tablets menor xs */ 
+@media only screen and (max-width : 320px) {
+    .foco{
+        height: 0;
+        max-width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .fc{
+        display: none;
+    }
+}

@@ -1,0 +1,112 @@
+.figura{
+    outline: none !important;
+}
+.figura1, .figura5{
+    background-image: url("../imagenes/octo_blanco.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.figura2, .figura10{
+    background-image: url("../imagenes/octo_blanco.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.figura3, .figura15{
+    background-image: url("../imagenes/octo_blanco.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.figura4, .figura20{
+    background-image: url("../imagenes/octo_blanco.png");
+   background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+.conte_shape{
+    height: 100%;
+    width: 100%;  
+}
+.image_shape{
+    height: 40%;
+    width: 100%;
+}
+.text_shape{
+    height: 60%;
+    width: 100%;
+}
+#im_shape_1, #im_shape_5{
+    background-image: url("../imagenes/Icon11.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+}
+#im_shape_2, #im_shape_10{
+    background-image: url("../imagenes/Icon22.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+}
+#im_shape_3, #im_shape_15{
+    background-image: url("../imagenes/Icon33.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+}
+#im_shape_4, #im_shape_20{
+    background-image: url("../imagenes/Icon44.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+}
+.text_shape{
+    color: #284c5a;
+}
+.txt_center{
+    text-align: center;
+    padding-top: 5px;
+}
+.borde{
+    border: 1px solid black;
+}
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.contenedor_figuras{
+    width: 60vh;
+    height: 60vh;
+    margin: auto;
+        
+}
+.no_padding{
+    padding: 0px !important;
+}
+
+.no_margin{
+    margin: 0px !important;
+}
+
+.square {
+    margin: auto;
+    width: 50%;
+}
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.popover-content{
+    background: #ffcd00;
+}

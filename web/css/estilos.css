@@ -1,0 +1,205 @@
+#welcome{
+    background-image: url("../imagenes/Fondo1.png");
+    background-color: #cccccc;
+}
+#content{
+    background-image: url("../imagenes/Fondo2.png");
+    background-color: #cccccc;
+}
+#information{
+    background-image: url("../imagenes/Fondo3.png");
+    background-color: #cccccc;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    line-height: 1;
+}
+.contenidoGrande{
+    display: block;
+}
+.derechos{
+    font-size: 12px; 
+    float: right; 
+    padding-right: 15px;
+}
+.contenidoChico{
+    display: none;
+}
+.foco{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /*
+    height: 150%;
+    max-width: 200%;
+    position: absolute;
+    top: -10%;
+    bottom: 0;
+    left: -65%;
+    right: 0;
+    */
+}
+.padding_menu{
+    padding-right: 10% !important;
+}
+.padding_inform{
+    padding-top: 3%;
+}
+.padding_contenido{
+    padding-right: 6%;
+}
+.noBlack{
+    text-shadow: 0 0px 0px rgba(0,0,0,.5) !important;
+}
+.align_derecha{
+    text-align: right;
+}
+
+.data-content{
+    width: 1000px;
+}
+
+.size_menu{
+    font-size: 1.5vw !important;
+}
+.size_metodo{
+    font-size: 2vw!important;
+}
+.size_consolidamos{
+    font-size: 1.5vw!important;
+}
+
+.size_somos{
+    font-size: 1.5vw!important;
+}
+
+.size_ideas{
+    font-size: 1.5vw!important;
+}
+
+.size_mientras{
+    font-size: 8vh!important;
+}
+.size_mejores{
+    font-size: 5vh!important;
+}
+.size_deseas{
+    font-size: 3vh!important;
+}
+.size_lang{
+    font-size: 1vw!important;
+}
+.redes_size{
+    height: 2%;
+    width: 7%;
+    top: 0;
+    left: 0;
+}
+.somos_style{
+    border-radius: 15px;
+    background-color: white;
+    padding: 1.5%;
+}
+.mejores_style{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+.active_font{
+    font-family: extraBoldItalic;
+}
+.desac_font{
+    font-family: boldItalic;
+}
+.metodo_font{
+    font-family: regular;
+}
+.allin_font{
+    font-family: black;
+}
+.consolidado_font{
+    font-family: thin;
+}
+.somos_font{
+    font-family: light;
+}
+.acciones_font{
+    font-family: lightItalic;
+}
+.semi_font{
+    font-family: semiBoldItalic;
+}
+.deseas_font{
+    font-family: lightItalic;
+}
+.medium_font{
+    font-family: mediumItalic;
+}
+.color_plomo{
+    color: rgb(40,56,90)!important;
+}
+.color_blanco{
+    color: rgb(255,255,255)!important;
+}
+.color_amarillo{
+    color: rgb(255,205,0)!important;
+}
+.color_rojo{
+    color: rgb(129,37,41)!important;
+}
+
+@font-face {
+    font-family: extraBoldItalic;
+    src: url(../fonts/Exo2-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: black;
+    src: url(../fonts/Exo2-Black.ttf);
+}
+@font-face {
+    font-family: boldItalic;
+    src: url(../fonts/Exo2-BoldItalic.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(../fonts/Exo2-Light.ttf);
+}
+@font-face {
+    font-family: mediumItalic;
+    src: url(../fonts/Exo2-MediumItalic.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(../fonts/Exo2-Regular.ttf);
+}
+@font-face {
+    font-family: semiBoldItalic;
+    src: url(../fonts/Exo2-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: thin;
+    src: url(../fonts/Exo2-Thin.ttf);
+}
+@font-face {
+    font-family: lightItalic;
+    src: url("../fonts/Exo2-LightItalic.ttf");
+}
+
+/*MIGUEL*/
+.popup-style{
+    margin-top: 5%;
+    background-color: rgb(255,205,0) !important; 
+    color: rgb(40,56,90) !important; 
+    border-radius: 10px !important;
+    border-color: white;
+    border-style: solid;
+    line-height: 1.5;
+}
+.octagonGrande{
+    display: block;
+}
+.octagonChico{
+    display: none;
+}

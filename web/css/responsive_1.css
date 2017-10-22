@@ -1,0 +1,218 @@
+
+/*
+.size_menu{font-size: 1.5vw !important;}
+.size_metodo{font-size: 2vw!important;}
+.size_consolidamos{font-size: 1.5vw!important;}
+.size_somos{font-size: 1.5vw!important;}
+.size_ideas{font-size: 1.5vw!important;}
+.size_mientras{font-size: 8vh!important;}
+.size_mejores{font-size: 5vh!important;}
+.size_deseas{font-size: 3vh!important;}
+*/
+
+.dropdown_place{
+    display: none;
+}
+.padding_dropdown{
+    padding: 5px;
+}
+.boder_dropdown_rojo{
+    border: solid 1px rgb(129,37,41);
+    font-family: lightItalic;
+}
+.option_drop_rojo{
+    text-decoration: none !important;
+    color: rgb(129,37,41);
+}
+.boder_dropdown_amarillo{
+    border: solid 1px rgb(255,205,0);
+    font-family: lightItalic;
+}
+.option_drop_amarillo{
+    text-decoration: none !important;
+    color: rgb(255,205,0);
+}
+.boder_dropdown_plomo{
+    border: solid 1px rgb(40,56,90);
+    font-family: lightItalic;
+}
+.option_drop_plomo{
+    text-decoration: none !important;
+    color: rgb(40,56,90);
+}
+.metodo_all_fade{
+    display: none;
+}
+
+@media only screen and (min-height: 1000px) and (max-width: 2200px) {
+    .size_mientras{font-size: 4vw!important;}
+    .size_menu{font-size: 2.3vh !important;}
+    .size_metodo{font-size: 3vh!important;}
+    .size_consolidamos{font-size: 2vh!important;}
+    .size_somos{font-size: 1.5vw!important;}
+    .size_ideas{font-size: 2vw!important;}
+    .contenedor_figuras{
+        width: 50vh;
+        height: 50vh;
+        margin: auto;
+        top: 10px;
+    }
+}
+
+@media only screen and (min-height: 700px) and (max-width: 1200px) {
+    .size_mientras{font-size: 4vw!important;}
+    .size_menu{font-size: 2.3vh !important;}
+    .size_metodo{font-size: 3vh!important;}
+    .size_consolidamos{font-size: 2vh!important;}
+    .size_somos{font-size: 1.5vw!important;}
+    .size_ideas{font-size: 2vw!important;}
+    .contenedor_figuras{
+        width: 50vh;
+        height: 50vh;
+        margin: auto;
+        top: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1201px){
+
+    .masthead-nav > li + li {
+        margin-left: 100px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 100px;
+    }
+}
+
+/* Wide Screens menor md*/
+@media only screen and (max-width : 1200px) {
+
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+}
+
+/*Desktops menor sm*/
+@media only screen and (max-width : 992px) {
+
+    .size_menu{
+        font-size: 2vw !important;
+    }
+
+    .size_mientras{
+        font-size: 6vh!important;
+    }
+
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+}
+
+/*Tablets menor xs */
+@media only screen and (max-width : 768px) {
+    .fc{
+        display: none;
+    }
+
+
+} 
+
+/* Tablets menor xs */ 
+@media only screen and (max-width : 480px) {
+
+    body{
+        overflow-y: scroll !important;
+    }
+    .octagonGrande{
+        display: none;
+    }
+    .octagonChico{
+        display: block;
+    }
+    .contenedor_pops{
+        width: 45vh;
+        margin: auto;
+        top: 10px;
+        display: none;
+    }
+    .contenidoGrande{
+        display: none;
+    }
+    .contenidoChico{
+        display: block;
+    }
+
+    .size_somos{font-size: 2.5vw!important;}
+    .size_ideas{font-size: 3vw!important;}
+    .size_mientras{font-size: 6vh!important;}
+    .size_mejores{font-size: 4vh!important;}
+    .size_shape{font-size: 4vw!important;}
+    .size_lang{font-size: 3vw!important;}
+    .size_metodo{font-size: 6vw!important;}
+    .size_consolidamos{font-size: 4vw!important;}
+    .metodo_all_fade{
+        display: block;
+    }
+
+    .fc{
+        display: none;
+    }
+    .nav_bar{
+        display: none;
+    }
+    .dropdown_place{
+        position: relative;
+        display: inline-block; 
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 160px;
+        z-index: 1;
+    }
+    .dropdown_place:hover .dropdown-content {
+        display: block;
+    }
+
+    .boder_dropdown_rojo:hover{
+        background-color: rgb(129,37,41);
+    }
+    .boder_dropdown_rojo:hover > a{
+        color: #fff !important;
+    }
+
+    .boder_dropdown_amarillo:hover{
+        background-color: rgb(253, 186,0);
+    }
+    .boder_dropdown_amarillo:hover > a{
+        color: #fff !important;
+    }
+
+    .boder_dropdown_plomo:hover{
+        background-color: rgb(40,56,90);
+    }
+    .boder_dropdown_plomo:hover > a{
+        color: #fff !important;
+    }
+
+    .metodo_all{
+        display: none;
+    }
+
+
+}
+
+/* Tablets menor xs */ 
+@media only screen and (max-width : 320px) {
+    .fc{
+        display: none;
+    }
+}
